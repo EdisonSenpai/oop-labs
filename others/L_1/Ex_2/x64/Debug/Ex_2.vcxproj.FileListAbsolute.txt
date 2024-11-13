@@ -1,0 +1,3 @@
+C:\Users\edard\Desktop\Ex_2\x64\Debug\Ex_2.exe
+C:\Users\edard\Desktop\POO_darling\Semi_2\Ex_2\x64\Debug\Ex_2.exe
+G:\My Drive\POO_darling\Semi_2\Ex_2\x64\Debug\Ex_2.exe
