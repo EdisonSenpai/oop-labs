@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1670262415 source:c:\users\edard\dropbox\pc\desktop\lab_10\cerc.cpp
+	"cerc.hpp"
+
+1670262475 c:\users\edard\dropbox\pc\desktop\lab_10\cerc.hpp
+	"interfata.h"
+
+1670262597 c:\users\edard\dropbox\pc\desktop\lab_10\interfata.h
+	<iostream>
+
+1670262310 source:c:\users\edard\dropbox\pc\desktop\lab_10\dreptunghi.cpp
+	"dreptunghi.hpp"
+
+1670262478 c:\users\edard\dropbox\pc\desktop\lab_10\dreptunghi.hpp
+	"interfata.h"
+
+1670262485 source:c:\users\edard\dropbox\pc\desktop\lab_10\interfata.cpp
+	"interfata.h"
+
+1670262427 source:c:\users\edard\dropbox\pc\desktop\lab_10\patrat.cpp
+	"patrat.hpp"
+
+1670262488 c:\users\edard\dropbox\pc\desktop\lab_10\patrat.hpp
+	"interfata.h"
+
+1670262492 c:\users\edard\dropbox\pc\desktop\lab_10\triunghi.hpp
+	"interfata.h"
+
+1670262462 c:\users\edard\dropbox\pc\desktop\lab_10\triunghi_dreptunghic.hpp
+	"triunghi.hpp"
+
+1670263569 source:c:\users\edard\dropbox\pc\desktop\lab_10\triunghi.cpp
+	"triunghi.hpp"
+
+1670263613 source:c:\users\edard\dropbox\pc\desktop\lab_10\triunghi_dreptunghic.cpp
+	"triunghi_dreptunghic.hpp"
+
+1670324594 source:c:\users\edard\dropbox\pc\desktop\lab_10\main.cpp
+	"interfata.h"
+	"patrat.hpp"
+	"dreptunghi.hpp"
+	"triunghi.hpp"
+	"triunghi_dreptunghic.hpp"
+	"cerc.hpp"
+
