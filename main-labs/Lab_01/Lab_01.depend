@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1665418663 source:c:\users\edard\dropbox\pc\desktop\lab_01\main.cpp
+	"matrice.hpp"
+
+1665418502 c:\users\edard\dropbox\pc\desktop\lab_01\matrice.hpp
+	<iostream>
+
+1665418476 source:c:\users\edard\dropbox\pc\desktop\lab_01\matrice.cpp
+	"matrice.hpp"
+
+1665418663 source:e:\facultate\an_2\sem_1\poo\lab_01\main.cpp
+	"matrice.hpp"
+
+1665418502 e:\facultate\an_2\sem_1\poo\lab_01\matrice.hpp
+	<iostream>
+
+1665418917 source:e:\facultate\an_2\sem_1\poo\lab_01\matrice.cpp
+	"matrice.hpp"
+
+1665418663 source:e:\facultate\an_2\sem_1\poo\laborator\lab_01\main.cpp
+	"matrice.hpp"
+
+1665418502 e:\facultate\an_2\sem_1\poo\laborator\lab_01\matrice.hpp
+	<iostream>
+
+1665418917 source:e:\facultate\an_2\sem_1\poo\laborator\lab_01\matrice.cpp
+	"matrice.hpp"
+

@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1667254426 source:e:\facultate\an_2\sem_1\poo\laborator\lab_04\main.cpp
+	"fractie.hpp"
+
+1679240223 e:\facultate\an_2\sem_1\poo\laborator\lab_04\fractie.hpp
+	<iostream>
+
+1667252933 source:e:\facultate\an_2\sem_1\poo\laborator\lab_04\fractie.cpp
+	"fractie.hpp"
+
+1667256533 source:g:\my drive\seria ab\anul 2\semestrul 1\poo\laborator\lab_04\fractie.cpp
+	"fractie.hpp"
+
+1679243823 g:\my drive\seria ab\anul 2\semestrul 1\poo\laborator\lab_04\fractie.hpp
+	<iostream>
+
+1667258026 source:g:\my drive\seria ab\anul 2\semestrul 1\poo\laborator\lab_04\main.cpp
+	"fractie.hpp"
+

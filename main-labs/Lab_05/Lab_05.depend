@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1667846281 source:e:\facultate\an_2\sem_1\poo\laborator\lab_05\main.cpp
+	"student.hpp"
+
+1667842578 e:\facultate\an_2\sem_1\poo\laborator\lab_05\bursa.hpp
+	<iostream>
+	<cstring>
+
+1667846311 source:e:\facultate\an_2\sem_1\poo\laborator\lab_05\bursa.cpp
+	"bursa.hpp"
+
+1667846281 source:e:\facultate\an_2\sem_1\poo\laborator\lab_05\student.cpp
+	"student.hpp"
+
+1667842937 e:\facultate\an_2\sem_1\poo\laborator\lab_05\student.hpp
+	"bursa.hpp"
+
+1667846311 source:g:\my drive\seria ab\anul 2\semestrul 1\poo\laborator\lab_05\bursa.cpp
+	"bursa.hpp"
+
+1667842578 g:\my drive\seria ab\anul 2\semestrul 1\poo\laborator\lab_05\bursa.hpp
+	<iostream>
+	<cstring>
+
+1667846281 source:g:\my drive\seria ab\anul 2\semestrul 1\poo\laborator\lab_05\main.cpp
+	"student.hpp"
+
+1667842937 g:\my drive\seria ab\anul 2\semestrul 1\poo\laborator\lab_05\student.hpp
+	"bursa.hpp"
+
+1667846281 source:g:\my drive\seria ab\anul 2\semestrul 1\poo\laborator\lab_05\student.cpp
+	"student.hpp"
+

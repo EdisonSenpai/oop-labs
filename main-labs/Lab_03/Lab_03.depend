@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1666629665 source:c:\users\edard\dropbox\pc\desktop\poo\laborator\lab_03\main.cpp
+	"erou.hpp"
+
+1666629462 c:\users\edard\dropbox\pc\desktop\poo\laborator\lab_03\erou.hpp
+	<iostream>
+	<cstring>
+
+1666630037 source:c:\users\edard\dropbox\pc\desktop\poo\laborator\lab_03\erou.cpp
+	"erou.hpp"
+
+1667222357 source:e:\facultate\an_2\sem_1\poo\laborator\lab_03\main.cpp
+	"erou.hpp"
+
+1667222043 e:\facultate\an_2\sem_1\poo\laborator\lab_03\erou.hpp
+	<iostream>
+	<cstring>
+
+1667222039 source:e:\facultate\an_2\sem_1\poo\laborator\lab_03\erou.cpp
+	"erou.hpp"
+

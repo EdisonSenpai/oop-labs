@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1666026186 source:c:\users\edard\dropbox\pc\desktop\lab_2_new\main.cpp
+	"Ferma.hpp"
+
+1666022384 c:\users\edard\dropbox\pc\desktop\lab_2_new\ferma.hpp
+	<iostream>
+	<cstring>
+
+1666026553 source:c:\users\edard\dropbox\pc\desktop\lab_2_new\ferma.cpp
+	"Ferma.hpp"
+
+1666022953 source:e:\facultate\an_2\sem_1\poo\laborator\lab_02\ferma.cpp
+	"Ferma.hpp"
+
+1666018784 e:\facultate\an_2\sem_1\poo\laborator\lab_02\ferma.hpp
+	<iostream>
+	<cstring>
+
+1666022586 source:e:\facultate\an_2\sem_1\poo\laborator\lab_02\main.cpp
+	"Ferma.hpp"
+
