@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1668445462 source:e:\facultate\an_2\sem_1\poo\laborator\lab_06\locuinta.cpp
+	"locuinta.hpp"
+
+1668444607 e:\facultate\an_2\sem_1\poo\laborator\lab_06\locuinta.hpp
+	<iostream>
+	<cstring>
+
+1668445744 source:e:\facultate\an_2\sem_1\poo\laborator\lab_06\locuitor.cpp
+	"locuitor.hpp"
+
+1668445786 e:\facultate\an_2\sem_1\poo\laborator\lab_06\locuitor.hpp
+	"impozit.hpp"
+	"locuinta.hpp"
+
+1668444609 e:\facultate\an_2\sem_1\poo\laborator\lab_06\impozit.hpp
+	<iostream>
+	<cstring>
+
+1668447113 source:e:\facultate\an_2\sem_1\poo\laborator\lab_06\main.cpp
+	"oras.hpp"
+
+1668448109 e:\facultate\an_2\sem_1\poo\laborator\lab_06\oras.hpp
+	"locuitor.hpp"
+
+1668447294 source:e:\facultate\an_2\sem_1\poo\laborator\lab_06\oras.cpp
+	"oras.hpp"
+
+1668444644 source:e:\facultate\an_2\sem_1\poo\laborator\lab_06\impozit.cpp
+	"impozit.hpp"
+

@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1669057195 source:e:\facultate\an_2\sem_1\poo\laborator\lab_07\main.cpp
+	"vector.hpp"
+
+1669057222 e:\facultate\an_2\sem_1\poo\laborator\lab_07\vector.hpp
+	<iostream>
+	"fractie.hpp"
+	"nr_complex.hpp"
+
+1669057195 source:e:\facultate\an_2\sem_1\poo\laborator\lab_07\vector.cpp
+	"vector.hpp"
+
+1669055790 source:e:\facultate\an_2\sem_1\poo\laborator\lab_07\fractie.cpp
+	"fractie.hpp"
+
+1669057222 e:\facultate\an_2\sem_1\poo\laborator\lab_07\fractie.hpp
+	<iostream>
+
+1669057222 e:\facultate\an_2\sem_1\poo\laborator\lab_07\nr_complex.hpp
+	<iostream>
+	<cmath>
+
+1669056698 source:e:\facultate\an_2\sem_1\poo\laborator\lab_07\nr_complex.cpp
+	"nr_complex.hpp"
+
