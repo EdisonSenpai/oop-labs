@@ -1,0 +1,164 @@
+<-------------------------------Item.hpp----------------------------------------->
+
+#ifndef ITEM_HPP
+#define ITEM_HPP
+
+// #pragma warning (disable : 4996) // doar pentu MS VS
+
+#include <iostream>
+#include <cstring>
+
+class Item {
+protected:
+    char* name;
+    double price;
+
+public:
+    Item(const char* name, double price);
+    Item(const Item& other);
+    Item& operator=(const Item& other);
+    ~Item();
+
+    double getPrice() const;
+    void display() const;
+
+};
+
+#endif // ITEM_HPP
+
+<-------------------------------Electronics.hpp----------------------------------------->
+
+#ifndef ELECTRONICS_HPP
+#define ELECTRONICS_HPP
+
+#include "Item.hpp"
+
+class Electronics : public Item {
+
+private:
+    char* brand;
+    int warranty;
+
+public:
+    Electronics(const char* name, double price, const char* brand, int warranty);
+    Electronics(const Electronics& other);
+    Electronics& operator=(const Electronics& other);
+    ~Electronics();
+
+    void display() const;
+
+};
+
+#endif // ELECTRONICS_HPP
+
+
+<-------------------------------Appliances.hpp----------------------------------------->
+
+#ifndef APPLIANCES_HPP
+#define APPLIANCES_HPP
+
+#include "Item.hpp"
+
+class Appliances : public Item {
+
+private:
+    int powerConsumption;
+
+public:
+    Appliances(const char* name, double price, int powerConsumption);
+    Appliances(const Appliances& other);
+    Appliances& operator=(const Appliances& other);
+
+    void display() const;
+
+};
+
+#endif // APPLIANCES_HPP
+
+
+<-------------------------------Fashion.hpp----------------------------------------->
+
+#ifndef FASHION_HPP
+#define FASHION_HPP
+
+#include "Item.hpp"
+
+class Fashion : public Item {
+
+private:
+    char* size;
+    char* material;
+
+public:
+    Fashion(const char* name, double price, const char* size, const char* material);
+    Fashion(const Fashion& other);
+    Fashion& operator=(const Fashion& other);
+    ~Fashion();
+
+    void display() const;
+
+};
+
+#endif // FASHION_HPP
+
+
+<-------------------------------HomeAndGarden.hpp----------------------------------------->
+
+#ifndef HOMEANDGARDEN_HPP
+#define HOMEANDGARDEN_HPP
+
+#include "Item.hpp"
+
+class HomeAndGarden : public Item {
+
+private:
+    char* dimensions; // ex: "200x150x50 cm"
+    char* material;   // ex: "Lemn"
+
+public:
+    HomeAndGarden(const char* name, double price, const char* dimensions, const char* material);
+    HomeAndGarden(const HomeAndGarden& other);
+    HomeAndGarden& operator=(const HomeAndGarden& other);
+    ~HomeAndGarden();
+
+    void display() const;
+
+};
+
+#endif // HOMEANDGARDEN_HPP
+
+<-------------------------------Inventory.hpp----------------------------------------->
+
+#ifndef INVENTORY_HPP
+#define INVENTORY_HPP
+
+#include <iostream>
+#include "Electronics.hpp"
+#include "Appliances.hpp"
+#include "Fashion.hpp"
+#include "HomeAndGarden.hpp"
+
+template <typename T>
+class Inventory {
+private:
+    T** items;
+    int capacity;
+    int count;
+
+    void resize();
+
+public:
+    Inventory(int initialCapacity = 10, int initialCount = 0);
+    ~Inventory();
+
+    void addItem(T* item);
+    void displayItems() const;
+
+    T* getMaxPriceItem() const;
+
+    void sortItemsByPriceAscending();
+    void sortItemsByPriceDescending();
+
+};
+
+#endif // INVENTORY_HPP
