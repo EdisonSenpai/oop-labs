@@ -1,0 +1,14 @@
+﻿  Circuit.cpp
+  Dacia.cpp
+D:\Facultate\Anul 4\OOP (asistenta)\OOP_L9\Dacia.cpp(15,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Ford.cpp
+D:\Facultate\Anul 4\OOP (asistenta)\OOP_L9\Ford.cpp(15,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Mazda.cpp
+D:\Facultate\Anul 4\OOP (asistenta)\OOP_L9\Mazda.cpp(15,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Mercedes.cpp
+D:\Facultate\Anul 4\OOP (asistenta)\OOP_L9\Mercedes.cpp(15,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  OOP_L9.cpp
+  Toyota.cpp
+D:\Facultate\Anul 4\OOP (asistenta)\OOP_L9\Toyota.cpp(15,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  OOP_L9.vcxproj -> D:\Facultate\Anul 4\OOP (asistenta)\OOP_L9\x64\Debug\OOP_L9.exe

@@ -1,0 +1,102 @@
+// Caracter.h
+
+#ifndef CARACTER_H
+#define CARACTER_H
+
+#include <iostream>
+#include <cstring>
+
+class Caracter {
+protected:
+    char* nume;
+    int viata;
+    int atac;
+    int aparare;
+
+public:
+    Caracter(const char* nume, int viata, int atac, int aparare); // TODO: Implementati constructorul
+    virtual ~Caracter(); // TODO: Implementati destructorul
+
+    virtual void folosesteAbilitate() = 0; // TODO: Clasele derivate vor defini aceasta metoda
+    virtual void afisareDetalii(std::ostream& out) const = 0;
+
+    friend std::ostream& operator<<(std::ostream& out, const Caracter& c);
+
+    bool esteEliminat() const; // TODO: Implementati verificarea eliminarii
+    void primesteDaune(int daune); // TODO: Calculati daunele primite
+
+    int getAtac() const; // TODO: Implementati getter
+    const char* getName() const; // TODO: Implementati getter
+};
+
+#endif // CARACTER_H
+
+// Razboinic.h
+
+#ifndef RAZBOINIC_H
+#define RAZBOINIC_H
+
+#include "Caracter.h"
+#include <iostream>
+
+class Razboinic : public Caracter {
+public:
+    Razboinic(const char* nume);
+    void folosesteAbilitate() override;
+    void afisareDetalii(std::ostream& out) const override;
+};
+
+#endif // RAZBOINIC_H
+
+// Echipa.h
+
+#ifndef ECHIPA_H
+#define ECHIPA_H
+
+#include "Caracter.h"
+#include <iostream>
+
+class Echipa {
+private:
+    Caracter** membri;
+    int capacitate;
+    int nrMembri;
+
+public:
+    Echipa(int capacitateMax = 10);
+    ~Echipa();
+
+    void adaugaCaracter(Caracter* c);
+    void afiseazaEchipa() const;
+    bool esteInvinsa() const;
+
+    Caracter* getCaracterNeeliminat();
+};
+
+// Arena.h
+
+#ifndef ARENA_H
+#define ARENA_H
+
+#include "Echipa.h"
+
+#include "Razboinic.h"
+#include "Vrajitor.h"
+#include "Ninja.h"
+#include "Asasin.h"
+
+#include <iostream>
+
+class Arena {
+private:
+    Echipa echipa1;
+    Echipa echipa2;
+
+public:
+    Arena(Echipa& e1, Echipa& e2);
+
+    void simuleazaLupta();
+    void afiseazaRezultate() const;
+};
+
+#endif // ARENA_H
