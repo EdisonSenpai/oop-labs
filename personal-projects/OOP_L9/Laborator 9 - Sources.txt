@@ -1,0 +1,96 @@
+// Mazda.cpp (model si pentru celelalte derivate
+
+#include "Mazda.h"
+
+Mazda::Mazda() {
+    fuelCapacity = 100;
+    fuelConsumption = 6;
+    averageSpeed[Rain] = 55;
+    averageSpeed[Sunny] = 100;
+    averageSpeed[Snow] = 40;
+    name = (char*)"Mazda";
+}
+
+float Mazda::GoCar(bool& b, int w, int circuitLength) {
+    int speed = averageSpeed[w];
+    float hours = fuelCapacity / fuelConsumption;
+    float distance = hours * speed;
+
+    b = distance > circuitLength;
+    return (hours * circuitLength / distance);
+}
+
+char* Mazda::getName() {
+    return name;
+}
+
+// Circuit.cpp
+
+// Circuit.cpp
+#include "Circuit.h"
+
+// TODO: Initializati atributele clasei Circuit.
+Circuit::Circuit() {
+     // Initializati lungimea circuitului cu 0.
+     // Initializati vectorul de masini, fara elemente in el
+     // Initializati vectorul pentru timpii de finalizare, fara elemente in el
+     // Initializati vectorul care va seta finalitatea masinilor, fara elemente in el
+     // Initializati numarul de masini la 0 (este index pentru vectorul car).
+     // Setati vremea implicita la Sunny.
+}
+
+// TODO: Implementati metoda pentru setarea lungimii circuitului.
+
+
+// TODO: Implementati metoda pentru setarea vremii.
+// 0 - Ploaie, 1 - Soare, 2 - Zapada.
+
+void Circuit::AddCar(Car* c) {
+    // TODO: Adaugati masina la vectorul de masini al circuitului si incrementati indexul.
+        // OBS: Nu uitati sa verificati daca se depaseste numarul default de masini setat (10).
+}
+
+// Logica cursei
+void Circuit::Race() {
+    for (int i = 0; i < cars; i++) {
+        // Apelam metoda GoCar pentru fiecare masina.
+        bool canFinish = false;
+
+        // Calculam timpii necesari pentru a termina cursa.
+        timeToFinish[i] = car[i]->GoCar(canFinish, weather, circuitLength);
+        finish[i] = canFinish;
+    }
+}
+
+// TODO: Afisati clasamentul final al masinilor.
+void Circuit::ShowFinalRanks() {
+    // Afisam doar masinile care au terminat cursa
+}
+
+// TODO: Afisati masinile care nu au terminat cursa.
+void Circuit::ShowWhoDidNotFinish() {
+    // Asemanator cu ShowFinalRanks()
+}
+
+// main.cpp
+
+#include "Circuit.h"
+#include "Car.h"
+
+int main() {
+    Circuit c;
+    c.SetLength(1000);
+    c.SetWeather(Sunny);
+
+    Mazda* mazda = new Mazda();
+    // TODO: Crearea altor clase de masini
+
+    c.AddCar(mazda);
+    // TODO: Adaugati alte masini
+
+    c.Race();
+    c.ShowFinalRanks();
+    c.ShowWhoDidNotFinish();
+
+    return 0;
+}
