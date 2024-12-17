@@ -1,0 +1,6 @@
+﻿  Arena.cpp
+  Echipa.cpp
+  OOP_L10.cpp
+D:\Facultate\Anul 4\OOP (asistenta)\OOP_L10\OOP_L10.cpp(6,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  OOP_L10.vcxproj -> D:\Facultate\Anul 4\OOP (asistenta)\OOP_L10\x64\Debug\OOP_L10.exe
